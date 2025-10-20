@@ -41,7 +41,7 @@ Follow these instructions to set up and run PromptLab Pro on your local machine.
 ### 1. Clone the Repository
 
 bash
-git clone https://github.com/your-username/promptlab-pro.git
+git clone [https://github.com/your-username/promptlab-pro.git](https://github.com/Faizee-Asad/PromptLab-Pro)
 cd promptlab-pro
 
 
@@ -49,14 +49,13 @@ cd promptlab-pro
 
 Create a file named `.env` in the root directory of the project. This file will store your API key and other configurations.
 
-dotenv
+```
 OPENROUTER_API_KEY="your_openrouter_api_key_here"
 # Optional: Adjust model temperature (default: 0.7)
 # TEMPERATURE="0.5"
 # Optional: Adjust max tokens for API response (default: 50000)
 # MAX_TOKENS="2000"
-
-
+```
 Replace `"your_openrouter_api_key_here"` with your actual API key obtained from [OpenRouter](https://openrouter.ai/).
 
 ### 3. Install Dependencies
