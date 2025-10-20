@@ -41,7 +41,7 @@ Follow these instructions to set up and run PromptLab Pro on your local machine.
 ### 1. Clone the Repository
 
 bash
-git clone [https://github.com/your-username/promptlab-pro.git](https://github.com/Faizee-Asad/PromptLab-Pro)
+git clone https://github.com/Faizee-Asad/PromptLab-Pro.git
 cd promptlab-pro
 
 
